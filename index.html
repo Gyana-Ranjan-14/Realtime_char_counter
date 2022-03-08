@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammerly</title>
+    <!-- link of favicon -->
+    <link rel="shortcut icon" href="favicon.png" type="image/
+    x-icon">
+    <!-- linking of css file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Real Time Character Counter</h2>
+        <p>Check your English Knowledge , grammer , spelling and punctuation errors with GyanaRanjan</p>
+
+        <textarea id="textarea" class="textarea" maxlength="150" placeholder="Write Here"></textarea>
+        <button onclick="copytext()">Copy Text</button>
+
+        <div class="counter-container">
+            <p>Total character: <span id="total_counter">0</span></p>
+            <p>Remainimg Character: <span id="remaining_counter">150</span></p>
+        </div>
+    </div>
+
+    <!-- java script code-->
+    <script src="script.js"></script>
+</body>
+
+</html>
